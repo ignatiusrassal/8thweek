@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="13498" started-at="2019-11-16T11:30:33Z" finished-at="2019-11-16T11:30:47Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.leafBot.testcases.TC001_CreateLead@210366b4]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="13498" started-at="2019-11-16T11:30:33Z" finished-at="2019-11-16T11:30:47Z">
+      <class name="com.leafBot.testcases.TC001_CreateLead">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:com.leafBot.testcases.TC001_CreateLead@210366b4]" name="startReport" is-config="true" duration-ms="359" started-at="2019-11-16T11:30:33Z" finished-at="2019-11-16T11:30:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="setData()[pri:0, instance:com.leafBot.testcases.TC001_CreateLead@210366b4]" name="setData" is-config="true" duration-ms="0" started-at="2019-11-16T11:30:33Z" finished-at="2019-11-16T11:30:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.leafBot.testcases.TC001_CreateLead@210366b4]" name="setUpClass" is-config="true" duration-ms="94" started-at="2019-11-16T11:30:33Z" finished-at="2019-11-16T11:30:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="report()[pri:0, instance:com.leafBot.testcases.TC001_CreateLead@210366b4]" name="report" is-config="true" duration-ms="0" started-at="2019-11-16T11:30:33Z" finished-at="2019-11-16T11:30:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.leafBot.testcases.TC001_CreateLead@210366b4]" name="beforeMethod" is-config="true" duration-ms="5894" started-at="2019-11-16T11:30:34Z" finished-at="2019-11-16T11:30:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="runTC001(java.lang.String, java.lang.String)[pri:0, instance:com.leafBot.testcases.TC001_CreateLead@210366b4]" name="runTC001" duration-ms="6959" started-at="2019-11-16T11:30:40Z" data-provider="fetchData" finished-at="2019-11-16T11:30:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kumar.testleaf@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[leaf@12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runTC001 -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.leafBot.testcases.TC001_CreateLead@210366b4]" name="tearDownClass" is-config="true" duration-ms="0" started-at="2019-11-16T11:30:47Z" finished-at="2019-11-16T11:30:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="stopReport()[pri:0, instance:com.leafBot.testcases.TC001_CreateLead@210366b4]" name="stopReport" is-config="true" duration-ms="318" started-at="2019-11-16T11:30:47Z" finished-at="2019-11-16T11:30:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopReport -->
+      </class> <!-- com.leafBot.testcases.TC001_CreateLead -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
